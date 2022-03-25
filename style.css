@@ -1,0 +1,33 @@
+
+.imagen-de-lenguaje {
+  width: 400px;
+  border-width: 10px;
+  border-color: blue;
+  border-style: outset dotted dashed double;
+}
+
+.bordes-redondeados {
+  width: 300px;
+  border-radius: 20px;
+}
+
+.contenedor-listas{
+  background-color: silver;
+}
+
+#titulo-principal{
+  font-size: 30px;
+  color: green;
+  font-family:  "Segoe UI", Tahoma, Geneva, Verdana, sasns-serif;
+}
+
+#ramas-fisica{
+  font-size: 16px;
+  color: blueviolet;
+}
+
+#ramas-quimica{
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
