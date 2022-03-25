@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Primera pagina web</title>
+    <link href="style.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <h2 id="titulo-principal">Proyecto : Primera pagina web</h2>
+
+
+
+    <main>
+      <h3>Repositorio de codigo:</h3>
+      <!--     Este texto no aparece en la pagina -->
+
+      <p>Haz click aqui para ver los <a href="https://www.freecodecamp.org/CodeJVG" target="_blank" rel="noopener noreferrer">  certificados.</a></p>
+
+      <p>
+        <a href ="#parrafo-1">Parrafo1</a>
+        <a href ="#parrafo-2">Parrafo2</a>
+        <a href ="#parrafo-3">Parrafo3</a>
+      </p>
+
+      <p>Este es un <a href="#" target = "_blank" rel="noopener noreferrer" >enlace muerto</a></p>
+<!--      TODO: Hacer el enlace-->
+      <a href="https://platzi.com/blog/python/?gclid=Cj0KCQjw29CRBhCUARIsAOboZbKqb_ls4pMxuYiKD3wW0TzOVtndnCanZGa99-G8nUJFY9BHWWCywNYaAosXEALw_wcB&gclsrc=aw.ds"
+         target="_blank" rel="noopener noreferrer">
+        <img src = "https://talently.tech/blog/wp-content/uploads/2020/11/cuanto-gana-un-programador-de-python-en-peru.jpg"
+              alt = "Logo de python" class="imagen-de-lenguaje">
+      </a>
+
+
+
+      <img src="imagenes/maxresdefault.jpg" alt="logo de c++" class="imagen-de-lenguaje">
+
+      <h3 id="parrafo-1">Parrafo1</h3>
+
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vehicula vel mi vitae
+        venenatis. Mauris fringilla sapien nec pretium tempor. Donec suscipit quis ante in tempor.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer imperdiet dolor
+        augue. Vestibulum molestie, orci non ullamcorper pretium, velit mi congue nibh, eu
+        venenatis libero nulla porta lectus. Nam maximus lacus eu eros tempor, vulputate gravida
+        orci pretium. Nulla facilisi. In scelerisque scelerisque nisl eu sollicitudin. </p>
+
+      <h3 id="parrafo-2">Parrafo2</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vehicula vel mi vitae venenatis.
+        Mauris fringilla sapien nec pretium tempor. Donec suscipit quis ante in tempor.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer imperdiet dolor
+        augue. Vestibulum molestie, orci non ullamcorper pretium, velit mi congue nibh, eu
+        venenatis libero nulla porta lectus. Nam maximus lacus eu eros tempor, vulputate gravida
+        orci pretium. Nulla facilisi. In scelerisque scelerisque nisl eu sollicitudin. </p>
+
+      <h3 id="parrafo-3">Parrafo3</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vehicula vel mi vitae
+        venenatis. Mauris fringilla sapien nec pretium tempor. Donec suscipit quis ante in tempor.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer imperdiet dolor
+        augue. Vestibulum molestie, orci non ullamcorper pretium, velit mi congue nibh, eu
+        venenatis libero nulla porta lectus. Nam maximus lacus eu eros tempor, vulputate gravida
+        orci pretium. Nulla facilisi. In scelerisque scelerisque nisl eu sollicitudin. </p>
+
+
+
+      <h4 id="python">¿Que es python?</h4>
+      <p>Python es un lenguaje de programación multiplataforma y de código abierto
+      que puede utilizarse tanto para desarrollo web, creación de software y
+      procesamiento de datos, entre muchos otros propósitos. Esta versatilidad y
+      facilidad para aprenderlo (es ampliamente considerado el lenguaje más sencillo
+      de aprender) lo han convertido en el lenguaje de programación más popular del
+        mundo, según el índice PYPL.</p>>
+
+
+
+      <div class="contenedor-listas">
+  <!--      Listas desordenadas-->
+        <p>Ramas de la  <strong>Fisica</strong>:</p>
+
+
+        <ul id="ramas-fisica">
+          <li>Meca&aacutenica cl&aacutesica</li>
+          <li>Electromagnetismo</li>
+          <li>Termodin&aacutemica</li>
+          <li><s>Ac&uacuteastica</s></li>
+        </ul>
+
+        <img src="https://pymstatic.com/25794/conversions/ramas-de-fisica-small-16_9.jpg"
+             alt="Fisica" class="bordes-redondeados">
+        <hr>
+
+        <!--      Listas ordenamas-->
+        <p>Ramas de la <em>Quimica</em>:</p>
+
+        <ol id="ramas-quimica">
+          <li>Quimica organica</li>
+          <li>Quimica inorganica</li>
+          <li>Quimica analitica</li>
+        </ol>
+
+        <img src="https://unibetas.com/wp-content/uploads/2022/01/ramas-de-la-quimica..png"
+           alt="Quimica" class="bordes-redondeados">
+      </div>
+<!--      Formularios-->
+      <form action="/enviar-respuesta">
+
+<!--        Botones de radio-->
+        <label for="interior"><input id="interior" type="radio"
+          value="interior" name="interior-exterior"> Interior</label><br>
+        <label for="exterior"><input id="exterior" type="radio"
+          value="exterior" name="interior-exterior"> Exterior</label><br>
+
+<!--        Texto y boton de enviar-->
+        <input type="text" placeholder="Ingrese texto" required>
+        <button type="submit">Enviar</button><br>
+
+<!--        Casillas de verificacion-->
+        <label for="perezoso"><input id="perezoso" type="checkbox"
+         value="perezoso" name="personalidad" checked> Perezoso</label>
+        <label for="energico"><input id="energico" type="checkbox"
+         value="energico" name="personalidad">Energico</label>
+        <label for="inteligente"><input id="inteligente" type="checkbox"
+          value="inteligente" name="personalidad">Inteligente</label>
+        <br>
+      </form>
+    </main>
+
+    <footer>
+
+      <p><small>Sin Derechos de Autor - <a  href="https://www.freecodecamp.org/CodeJVG"
+                                            target="_blank">CodeJVG</a> </small></p>
+
+    </footer>
+
+  </body>
+</html>
+
+
+
+
+
